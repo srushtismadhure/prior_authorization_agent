@@ -32,7 +32,7 @@ nlp = spacy.load("en_core_web_sm")
 
 notes = pd.read_csv("clinical.csv")
 carrier = pd.read_csv("prior_auth.csv")
-print(f"📄 Loaded files: notes={notes.shape}, carrier={carrier.shape}")
+print(f"Loaded files: notes={notes.shape}, carrier={carrier.shape}")
 
 
 
